@@ -140,3 +140,38 @@ body {
   height: 400px;
   display: block;
 }
+
+.about-title {
+  text-align: center;
+  font-family:  "Brush Script MT", cursive;
+  color:rgb(49, 42, 31);
+  font-size: 100px;
+  font-weight: 25;
+  letter-spacing: 5px;
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  width: 90%;
+  padding: 40px;
+}
+
+.about-container p {
+  max-width: 800px; 
+  text-align: center; 
+   background-color:#ffcbcb; 
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.stars3 {
+  margin: 0 10px; 
+  font-size: 40px;     
+  position: relative;
+  top: -5px;
+  color:#fd80a1; 
+}
